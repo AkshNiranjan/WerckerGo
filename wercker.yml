@@ -1,6 +1,6 @@
+build:
 box: alpine
 docker: true
-build:
   steps: 
      - script:
          name: Install docker
