@@ -51,6 +51,7 @@ build:
                      exit 1
                  fi   
              Else 
+                 echo "Else block"
                  echo "Test failed: container did not respond"
                  exit 1 
              fi           
