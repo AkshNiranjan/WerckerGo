@@ -50,7 +50,7 @@ build:
                      echo "The expected response was: " $expected
                      exit 1
                  fi   
-             else 
+             Else 
                  echo "Test failed: container did not respond"
                  exit 1 
              fi           
