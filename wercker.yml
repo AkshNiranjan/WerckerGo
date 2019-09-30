@@ -45,7 +45,9 @@ build:
                  export expected="Hello World!!"
                  if [ "$curlOutput" == "$expected" ]; then
                      echo "Test passed: container gave expected response: " $expected
+                     echo "If block"
                  Else
+                  echo "Inner Else block"
                      echo "Test failed: container gave unexpected response: " $curlOutput
                      echo "The expected response was: " $expected
                      exit 1
